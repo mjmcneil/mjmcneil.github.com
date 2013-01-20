@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="145"
+   height="145"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="pause.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6"
+     inkscape:cx="75.526421"
+     inkscape:cy="73.59816"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1215"
+     inkscape:window-height="1000"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-907.36218)">
+    <path
+       style="opacity:0.75;fill:#518687;fill-opacity:0.47488589;stroke:none"
+       d="M 72.78125 2.375 L 2.0625 73.09375 L 72.78125 143.8125 L 143.46875 73.09375 L 72.78125 2.375 z M 58.96875 46 L 65.6875 46 C 66.114353 46 66.4375 46.204702 66.4375 46.46875 L 66.4375 97.9375 C 66.4375 98.201548 66.114353 98.4375 65.6875 98.4375 L 58.96875 98.4375 C 58.541897 98.4375 58.1875 98.201548 58.1875 97.9375 L 58.1875 46.46875 C 58.1875 46.204702 58.541897 46 58.96875 46 z M 80.03125 46 L 86.75 46 C 87.176853 46 87.53125 46.204702 87.53125 46.46875 L 87.53125 97.9375 C 87.53125 98.201548 87.176853 98.4375 86.75 98.4375 L 80.03125 98.4375 C 79.604397 98.4375 79.25 98.201548 79.25 97.9375 L 79.25 46.46875 C 79.25 46.204702 79.604397 46 80.03125 46 z "
+       transform="translate(0,907.36218)"
+       id="rect2985" />
+  </g>
+</svg>
