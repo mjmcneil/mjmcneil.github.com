@@ -10,7 +10,7 @@ body {
 }
 h1 {
   font-size: 40px;
-  color:#22130;
+  color:#222130;
   margin-bottom: 10px;
   border-bottom: 1px solid #CCC;
   font-family: 'Raleway', sans-serif;
@@ -22,7 +22,7 @@ h1 small {
   font-family: 'Raleway', sans-serif;
 }
 h2, h3 {
-  color:#22130;
+  color:#222130;
   margin-bottom: 5px;
   font-family: 'Raleway', sans-serif;
 }
