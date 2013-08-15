@@ -3,11 +3,6 @@ html {
   margin-bottom: 1px;
   overflow-y: scroll;
 }
-body {
-  color: #464D57;
-  background-color: #fff;
-  font-family: 'Nobile', sans-serif;
-}
 h1 {
   font-size: 40px;
   color: #22130;
@@ -27,6 +22,9 @@ h2, h3 {
   font-family: 'Raleway', sans-serif;
 }
 p {
+  color: #464D57;
+  background-color: #fff;
+  font-family: 'Nobile', sans-serif;
   margin-top: 5px;
 }
 pre {
