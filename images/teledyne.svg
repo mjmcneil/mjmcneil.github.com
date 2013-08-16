@@ -14,7 +14,7 @@
    id="svg2993"
    version="1.1"
    inkscape:version="0.48.4 r9939"
-   sodipodi:docname="New document 3">
+   sodipodi:docname="teledyne.svg">
   <defs
      id="defs2995" />
   <sodipodi:namedview
@@ -24,9 +24,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="175.41705"
-     inkscape:cy="187.81116"
+     inkscape:zoom="3.959798"
+     inkscape:cx="100.05578"
+     inkscape:cy="66.247864"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -43,7 +43,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -52,29 +52,25 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-907.36218)">
-    <g
-       id="g5509"
-       transform="matrix(0.39750434,0,0,0.39750434,-42.701131,837.49726)">
-      <path
-         inkscape:connector-curvature="0"
-         id="path3839"
-         d="m 278.57143,282.36218 -101.78572,-0.71428 -70,71.42857 100.71429,0.35714 z"
-         style="fill:#0175be;fill-opacity:1;stroke:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3841"
-         d="m 297.5,282.00504 101.07143,0 72.85714,71.42857 L 367.5,352.71932 z"
-         style="fill:#0175be;fill-opacity:1;stroke:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3843"
-         d="m 292.5,289.1479 69.64286,69.64285 0,98.92857 -70.71429,-69.64285 z"
-         style="fill:#0175be;fill-opacity:1;stroke:none" />
-      <path
-         inkscape:connector-curvature="0"
-         id="path3845"
-         d="M 283.92857,288.43361 211.78571,360.57647 212.5,456.6479 284.28571,388.43361 z"
-         style="fill:#0175be;fill-opacity:1;stroke:none" />
-    </g>
+    <path
+       style="fill:#0175be;fill-opacity:0.58823532;stroke:none"
+       d="M 68.032221,949.73745 27.571956,949.45352 -0.25334783,977.84669 39.78102,977.98865 z"
+       id="path3839"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0175be;fill-opacity:0.58823532;stroke:none"
+       d="m 75.55641,949.59549 40.17633,0 28.96103,28.39316 -41.31206,-0.28393 z"
+       id="path3841"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0175be;fill-opacity:0.58823532;stroke:none"
+       d="m 73.568888,952.43481 27.683342,27.68333 0,39.32456 -28.10924,-27.68336 z"
+       id="path3843"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#0175be;fill-opacity:0.58823532;stroke:none"
+       d="m 70.161708,952.15087 -28.6771,28.6771 0.283933,38.18883 28.535132,-27.11549 z"
+       id="path3845"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
