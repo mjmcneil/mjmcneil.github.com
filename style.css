@@ -4,22 +4,25 @@ html {
   overflow-y: scroll;
 }
 body {
-  color: #585858;
+  color:#464D57;
   background-color: #fff;
   font-family: 'Nobile', sans-serif;
 }
 h1 {
   font-size: 40px;
+  color:#222130;
   margin-bottom: 10px;
   border-bottom: 1px solid #CCC;
   font-family: 'Raleway', sans-serif;
 }
 h1 small {
+  color:#464D57;
   font-size: 16px;
   padding-left: 10px;
   font-family: 'Raleway', sans-serif;
 }
 h2, h3 {
+  color:#222130;
   margin-bottom: 5px;
   font-family: 'Raleway', sans-serif;
 }
@@ -27,7 +30,7 @@ p {
   margin-top: 5px;
 }
 pre {
-  background-color: #F6F6F6;
+  background-color:#F6F6F6;
 }
 nav {
   font-size: 20px;
@@ -36,11 +39,11 @@ nav a {
   margin-right: 20px;
 }
 a{
-  color: #C30C0C;
+  color:#ED8917;
   text-decoration: none;
 }
 a:hover {
-  color: #333;
+  color:#464D57;
 }
 img.display {
 	display: block;
@@ -75,5 +78,5 @@ img.display {
  
 #textslide:hover {
 	line-height: 20px;
-	color: #585858;
+	color:#D4E8D3;
 }
