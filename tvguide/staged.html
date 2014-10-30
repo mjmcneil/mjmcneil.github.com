@@ -17,7 +17,7 @@ function getEpisodes() {
 	
 	var oReq = new XMLHttpRequest();
 	oReq.onload = reqListener;
-	oReq.open("get", "yourFile.txt", true);
+	oReq.open("get", url, true);
 	oReq.send();
 	
 	document.getElementById("demo").innerHTML = "http://thetvdb.com/api/GetSeries.php?seriesname=".concat(show);
