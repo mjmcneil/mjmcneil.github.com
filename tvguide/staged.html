@@ -8,24 +8,23 @@
 <button onclick="getEpisodes()">Get Episodes</button>
 <p id="demo"></p>
 <script>
+function reqListener () {
+	console.log(this.responseText);
+}
 function getEpisodes() {
     var show = document.getElementById("showName").value;
-	var xmlDoc=httpGet("http://thetvdb.com/api/GetSeries.php?seriesname=".concat(show));
+	var url = "http://thetvdb.com/api/GetSeries.php?seriesname=".concat(show));
+	
+	var oReq = new XMLHttpRequest();
+	oReq.onload = reqListener;
+	oReq.open("get", "yourFile.txt", true);
+	oReq.send();
+	
 	document.getElementById("demo").innerHTML = "http://thetvdb.com/api/GetSeries.php?seriesname=".concat(show);
 	//document.getElementById("demo").innerHTML = xmlDoc.getElementsByTagName("Overview")[0].childNodes[0].nodeValue;
 	
 	//document.write(xmlDoc.getElementsByTagName("Overview")[0].childNodes[0].nodeValue);
 }
-function httpGet(theUrl)
-{
-    var xmlHttp = null;
-
-    xmlHttp = new XMLHttpRequest();
-    xmlHttp.open( "GET", theUrl, false );
-    xmlHttp.send();
-    return xmlHttp.responseText;
-}
-
 </script>
 
 <script>
