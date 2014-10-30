@@ -22,7 +22,7 @@ function httpGet(theUrl)
 
     xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false );
-    xmlHttp.send( null );
+    xmlHttp.send();
     return xmlHttp.responseText;
 }
 
