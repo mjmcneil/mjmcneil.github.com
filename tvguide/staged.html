@@ -11,7 +11,9 @@
 function getEpisodes() {
     var show = document.getElementById("showName").value;
 	var xmlDoc=httpGet("http://thetvdb.com/api/GetSeries.php?seriesname=".concat(show));
-	document.getElementById("demo").innerHTML = xmlDoc.getElementsByTagName("Overview")[0].childNodes[0].nodeValue;
+	document.getElementById("demo").innerHTML = "http://thetvdb.com/api/GetSeries.php?seriesname=".concat(show);
+	//document.getElementById("demo").innerHTML = xmlDoc.getElementsByTagName("Overview")[0].childNodes[0].nodeValue;
+	
 	//document.write(xmlDoc.getElementsByTagName("Overview")[0].childNodes[0].nodeValue);
 }
 function httpGet(theUrl)
@@ -20,7 +22,7 @@ function httpGet(theUrl)
 
     xmlHttp = new XMLHttpRequest();
     xmlHttp.open( "GET", theUrl, false );
-   // xmlHttp.send( null );
+    xmlHttp.send( null );
     return xmlHttp.responseText;
 }
 
