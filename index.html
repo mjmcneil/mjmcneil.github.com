@@ -11,8 +11,11 @@
 -->
     
     <link rel="stylesheet" type="text/css" media="screen" href="jquery.content-panel-switcher.css" /> 
+	<link rel="stylesheet" type="text/css" href="jquery.lightbox-0.5.css" media="screen" />
+
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery.content-panel-switcher.js"></script> 
+	<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
 
 	<!--Initialize the Content Switcher, specify the speed (in milliseconds) of the transition and the panel ID you wish the content to appear in -->
 	<script type="text/javascript">
@@ -20,11 +23,17 @@
 	   jcps.fader(300, '#switcher-panel');
 	});
   </script> 
+  
+  <script type="text/javascript">
+    $(function() {
+	$('#gallery a').lightBox({fixedNavigation:true});
+	});
+    </script>
    
     <title>Megan McNeil</title>
   </head>
 
-  <body background="images/backgroundtiltedone.svg">
+  <body background="images/backgroundtiltedtwo.svg">
     <div id='container'>
     <header>
       <h1>Megan McNeil<small>Systems Design Engineering Student</small></h1>
@@ -46,6 +55,10 @@
 		As a Co-op student I have the opportunity to experience many different industries including financial, non-profit, telecommunications, and product development. It is through these jobs where I have developed my skills as well as learn many more. To learn more about my work place experience please view my <a href="#about"> experience </a>page.
 		<br>
 		I would love to get in touch with you via <a href="#contact">email or linkedin</a>.</p>
+			<div id="gallery">
+				<a href="images/gallery/2016.jpg" title="This is the 2016 aerial photo. The theme was enders vs defenders, as such we designed it to resemble PacMan eating a superman logo."><img src="images/gallery/2016_thumb.jpg" width="72" height="72" alt="2016"></a>
+				<a href="images/gallery/2017.jpg" title="This is the 2017 aerial photo. The them was imaginationland so we wanted to created the illusion of a '17 inside of a tophat with fireworks coming from the top."><img src="images/gallery/2017_thumb.jpg" width="72" height="72" alt="2017"></a>
+			</div>		
 	</div>
 	<div id="experience-content" class="switcher-content">
 		<div id="heading" style="height:20px;width:960px;float:left;"></div>
@@ -106,6 +119,7 @@
 		<div id="content" style="height:200px;width:800px;float:left;">
 		<h2>Aerial Photo</h2>
 			<p>For the past three years I have been an Aerial Photo director for Waterloo Engineering Orientation. This directorship in compasses all aspects of the event including event preparation, design of the photo, booking the venue and photographer and layout of inflow and outflow of leaders/students. I really enjoy this event because after all of the hard work and planning you have a physical reminder that will last for years to come. </p>
+
 		</div>
 		<div id="spacer"></div>
 

@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>PHP Test</title>
+</head>
+<body>
+<?php /* include the library */
+
+function getSeriesId ($seriesname) {
+	$url = 'http://thetvdb.com/api/GetSeries.php?seriesname='.$seriesname;
+	$curl = curl_init();
+	// Set some options - we are passing in a useragent too here
+	curl_setopt_array($curl, array(
+		CURLOPT_RETURNTRANSFER => 1,
+		CURLOPT_URL => $url,
+		CURLOPT_USERAGENT => 'Codular Sample cURL Request'
+	));
+	// Send the request & save response to $resp
+	$resp = curl_exec($curl);
+	// Close request to clear up some resources
+	curl_close($curl);
+	return $resp
+}
+/* spit out the show information */
+$outputurl = getSeriesId("Scorpion");
+echo "<h2>$outputurl</h2>";
+		
+
+?>
+</body>
+</html>
