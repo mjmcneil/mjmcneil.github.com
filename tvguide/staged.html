@@ -13,7 +13,7 @@ function reqListener () {
 }
 function getEpisodes() {
     var show = document.getElementById("showName").value;
-	var url = "http://thetvdb.com/api/GetSeries.php?seriesname=".concat(show));
+	var url = "http://thetvdb.com/api/GetSeries.php?seriesname=".concat(show);
 	
 	var oReq = new XMLHttpRequest();
 	oReq.onload = reqListener;
