@@ -19,6 +19,18 @@ function getEpisodes() {
 	if (!xhr) {
 		throw new Error('CORS not supported');
 	}
+	// Response handlers.
+  xhr.onload = function() {
+    var text = xhr.responseText;
+    var title = getTitle(text);
+    alert('Response from CORS request to ' + url + ': ' + title);
+  };
+
+  xhr.onerror = function() {
+    alert('Woops, there was an error making the request.');
+  };
+
+  xhr.send();
 	
 	//var oReq = new XMLHttpRequest();
 	//oReq.onload = reqListener;
